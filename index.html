@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Horas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="relogio.ico">
+</head>
+
+<body>
+    <h1>Calculadora de horas</h1>
+
+    <div class="horarios">
+        <div class="coluna">
+            <label for="inicio">Início</label>
+            <input id="inicio" type="text" placeholder="08:00" maxlength="5" onkeyup="formatar()">
+        </div>
+        <div class="coluna">
+            <label for="final">Inicio almoço</label>
+            <input id="final" type="text" placeholder="10:00" maxlength="5" onkeyup="formatar()">
+        </div>
+    </div>
+
+    <div class="horarios">
+        <div class="coluna">
+            <label style="color:rgb(0, 5, 48);" for="inicioA">Final almoço</label>
+            <input id="inicioA" type="text" placeholder="10:30" maxlength="5" onkeyup="formatar()">
+        </div>
+        <div class="coluna">
+            <label style="color:rgb(0, 5, 48);" for="finalA">Final</label>
+            <input id="finalA" type="text" placeholder="14:30" maxlength="5" onkeyup="formatar()">
+        </div>
+    </div>
+
+
+    <button onclick="Calcular()">Calcular</button>
+
+    <div id="resultado">
+        <div id="primeiro">
+
+        </div>
+        <div id="segundo">
+
+        </div>
+
+        <div id="resultadoFinal">
+
+        </div>
+    </div>
+
+    <script src="logica.js"></script>
+    <footer class="footer">Desenvolvido por: Gabriela Ramires | Para mais aplicações: <a
+            href="https://gabrielaramires.com.br/">gabrielaramires.com.br</footer>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(24, 75, 75);
+}
+
+.footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.329);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 35px;
+    color: rgb(6, 0, 91);
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+input {
+    height: 50px;
+    font-size: x-large;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 180px;
+    background-color: rgba(246, 246, 250, 0.64);
+}
+
+.horarios {
+
+    align-items: center;
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+
+}
+
+.coluna {
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 320px;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: x-large;
+    margin-top: 30px;
+    background-color: rgb(0, 129, 234);
+    border-radius: 8px;
+    border: none;
+    color: white;
+
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(1.4);
+}
+
+#resultado {
+    color: rgba(255, 255, 255, 0.558);
+    font-size: 25px;
+    margin-top: 40px
+}
+
+#resultadoFinal {
+    font-size: 50px;
+    color: white;
+}
